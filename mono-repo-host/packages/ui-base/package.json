@@ -1,0 +1,25 @@
+{
+  "name": "ui-base",
+  "version": "0.1.0",
+  "main": "index.js",
+  "module": "./esm/index.js",
+  "scripts": {
+    "copy-package.json": "cp package.json dist/",
+    "build:cjs": "yarn run tsc --module commonjs --outDir ./dist",
+    "build:esm": "yarn run tsc --module es2020 --outDir ./dist/esm",
+    "build": "yarn clean && yarn build:cjs && yarn build:esm && yarn copy-package.json",
+    "clean": "rm -rf dist && rm -f tsconfig.tsbuildinfo"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.2",
+    "typescript": "^5"
+  }
+}

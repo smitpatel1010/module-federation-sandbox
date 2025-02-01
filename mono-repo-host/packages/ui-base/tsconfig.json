@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "strict": false,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "allowJs": true,
+    "baseUrl": "./",
+    "declaration": true,
+    "lib": ["ES2019.Array", "ES5", "DOM"],
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "target": "es5",
+    "outDir": "./dist",
+    "composite": true,
+    "resolveJsonModule": true,
+    "paths": {}
+  },
+  "exclude": ["dist", "node_modules"],
+  "include": ["./src/**/*"]
+}
