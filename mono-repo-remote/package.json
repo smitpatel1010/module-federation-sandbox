@@ -4,5 +4,8 @@
     "private": true,
     "workspaces": [
         "packages/*"
-    ]
+    ],
+    "resolutions": {
+        "@module-federation/nextjs-mf@^8.8.11": "patch:@module-federation/nextjs-mf@npm%3A8.8.12#./.yarn/patches/@module-federation-nextjs-mf-npm-8.8.12-5c9b71498e.patch"
+    }
 }

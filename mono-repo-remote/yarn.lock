@@ -464,7 +464,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@module-federation/nextjs-mf@npm:^8.8.11":
+"@module-federation/nextjs-mf@npm:8.8.12":
   version: 8.8.12
   resolution: "@module-federation/nextjs-mf@npm:8.8.12"
   dependencies:
@@ -484,6 +484,29 @@ __metadata:
     styled-jsx:
       optional: true
   checksum: 81539ab135b81c3a6c378b77c0ccf57157675d79163f6a004f0868ec74a27969fbc4bb72acbf49437f65faea0b0ad1be96b6f05359f1e0b219d01058661ce657
+  languageName: node
+  linkType: hard
+
+"@module-federation/nextjs-mf@patch:@module-federation/nextjs-mf@npm%3A8.8.12#./.yarn/patches/@module-federation-nextjs-mf-npm-8.8.12-5c9b71498e.patch::locator=root%40workspace%3A.":
+  version: 8.8.12
+  resolution: "@module-federation/nextjs-mf@patch:@module-federation/nextjs-mf@npm%3A8.8.12#./.yarn/patches/@module-federation-nextjs-mf-npm-8.8.12-5c9b71498e.patch::version=8.8.12&hash=417651&locator=root%40workspace%3A."
+  dependencies:
+    "@module-federation/enhanced": 0.8.9
+    "@module-federation/node": 2.6.22
+    "@module-federation/runtime": 0.8.9
+    "@module-federation/sdk": 0.8.9
+    "@module-federation/webpack-bundler-runtime": 0.8.9
+    fast-glob: ^3.2.11
+  peerDependencies:
+    next: ^12 || ^13 || ^14 || ^15
+    react: ^17 || ^18 || ^19
+    react-dom: ^17 || ^18 || ^19
+    styled-jsx: "*"
+    webpack: ^5.40.0
+  peerDependenciesMeta:
+    styled-jsx:
+      optional: true
+  checksum: 01ed74eec61db0f09f1a36fc91c4bc857b0bf29f1f82bb759b5d205613b54982b48eda7ad9e68b1036a0505183fbca6e35f07cd603ab1229817eb9abcd7b6368
   languageName: node
   linkType: hard
 

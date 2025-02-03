@@ -1,0 +1,15 @@
+diff --git a/dist/src/loaders/nextPageMapLoader.js b/dist/src/loaders/nextPageMapLoader.js
+index e75d8ca00f9ae73755bf88a56dbc3599c3bfa3d1..0ff5505fa3d95e99b62b3d376cbca3f609e00891 100644
+--- a/dist/src/loaders/nextPageMapLoader.js
++++ b/dist/src/loaders/nextPageMapLoader.js
+@@ -50,8 +50,8 @@ function exposeNextjsPages(cwd) {
+         pageModulesMap['./' + sanitizePagePath(page)] = `./${page}`;
+     });
+     return {
+-        './pages-map': `${__filename}!${__filename}`,
+-        './pages-map-v2': `${__filename}?v2!${__filename}`,
++        // './pages-map': `${__filename}!${__filename}`,
++        // './pages-map-v2': `${__filename}?v2!${__filename}`,
+         ...pageModulesMap,
+     };
+ }
